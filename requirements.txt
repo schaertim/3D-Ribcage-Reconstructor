@@ -1,0 +1,13 @@
+# Rib Reconstruction Pipeline Requirements
+
+# Core scientific computing
+numpy>=1.20.0
+scipy>=1.7.0
+matplotlib>=3.3.0
+
+# Medical image processing
+nibabel>=3.2.0
+scikit-image>=0.18.0
+
+# 3D visualization (optional but recommended)
+pyvista>=0.32.0
