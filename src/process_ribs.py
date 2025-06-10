@@ -18,8 +18,8 @@ def main():
     and generate volumetric reconstructions
     """
     # Paths to your segmentation nifti files
-    coronal_seg_path = "S:/rib_segmentation/reconstruction/data/segmentations/coronal/eos_drr_1.nii.gz"
-    sagittal_seg_path = "S:/rib_segmentation/reconstruction/data/segmentations/sagittal/eos_drr_1.nii.gz"
+    coronal_seg_path = "../segmentations/coronal/eos_drr_1.nii.gz"
+    sagittal_seg_path = "../segmentations/sagittal/eos_drr_1.nii.gz"
 
     # Step 1: Create rib midline extractor and extract raw midlines
     print("\nCreating rib midline extractor...")
